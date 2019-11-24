@@ -24,7 +24,8 @@
     <preference name="Fullscreen" value="true" />
     <preference name="WebViewBounce" value="true" />
     <preference name="Orientation" value="landscape" />
-    <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" /> 
+	<preference name="StatusBarOverlaysWebView" value="true" />
 	
 	<icon src="images/logo.png" />
 	<!-- 
