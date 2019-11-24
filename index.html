@@ -7,6 +7,9 @@
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="cordova.js"></script>
 	<script>
+		document.addEventListener('deviceready', onDeviceReady.bind(this), false);
+		function onDeviceReady() { StatusBar.hide(); }
+		
   		$(function() {
 		alert('xxx');
   		});
