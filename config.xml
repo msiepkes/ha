@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
 <widget xmlns   = "http://www.w3.org/ns/widgets"
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "com.phonegap.example"
@@ -34,5 +33,8 @@
 	<gap:plugin name="com.footprint.cordova.plugin.local-notification" version="0.8.0" /> 
 	
 	<gap:plugin name="nl.genkgo.inappbrowser" version="0.5.0" /-->
+	
+	
+	<gap:plugin name="org.apache.cordova.InAppBrowser" />
 	<access origin="http://phonegap.com" subdomains="true" />
 </widget>
