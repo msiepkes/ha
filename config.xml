@@ -55,8 +55,8 @@
     <preference name="permissions" value="none"/>
 
     <!-- Plugins can also be added here. -->
-    <!--gap:plugin name="nl.x-services.plugins.socialsharing" /-->
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <!--gap:plugin name="nl.x-services.plugins.socialsharing" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" /-->
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" width="512" height="512" />
