@@ -8,7 +8,10 @@
 	<script src="cordova.js"></script>
 	<script>
 		document.addEventListener('deviceready', onDeviceReady.bind(this), false);
-		function onDeviceReady() { StatusBar.hide(); }
+		function onDeviceReady() { 
+			StatusBar.overlaysWebView(false); 
+			StatusBar.hide();
+		}
 		
   		$(function() {
 		alert('xxx');
