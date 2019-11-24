@@ -7,15 +7,19 @@
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="cordova.js"></script>
 	<script>
+		alert('x1');
 		document.addEventListener('deviceready', onDeviceReady.bind(this), false);
 		function onDeviceReady() { 
+		alert('x2');
 			StatusBar.overlaysWebView(false); 
 			StatusBar.hide();
 		}
 		
   		$(function() {
+		alert('x3');
 		alert('xxx');
   		});
+		alert('x4');
   </script>
   </head>
   <body>
