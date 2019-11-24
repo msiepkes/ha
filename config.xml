@@ -16,8 +16,15 @@
 	<preference name="SplashScreenDelay" value="1500" />
 	<preference name="splash-screen-duration" value="1500"/>
 	-->
+    <preference name="AndroidLaunchMode" value="singleTop" />
 	<preference name="fullscreen" value="true" />
 	<preference name="target-device" value="handset" />
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="WebViewBounce" value="true" />
+    <preference name="Orientation" value="landscape" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
 	
 	<icon src="images/logo.png" />
 	<!-- 
